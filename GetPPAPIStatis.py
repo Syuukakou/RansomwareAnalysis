@@ -4,6 +4,7 @@
 # 1，一个样本的親プロセス,定义为所有进程树中，children数最多的那个进程。
 # 2，example.json ==> behavior ==> processtree ==> processtree[i] ==> children[....]
 # 3，条件：①processtree[i]必须有children，②children内容非空，即children中还有其他进程
+#父进程的ppid是不在apistats中的
 import json
 import os
 import pandas as pd
@@ -41,16 +42,6 @@ def GetPProcesAPIStats(filepath,apistats_filename):
 		with open(filepath + "/" + maxprocess_id) as j_file:
 			jfname = json.load(j_file)
 			print(maxprocess_id, "'s parent process's id is ",process_max[maxprocess_id]," and api calls statistics:")  # Output json file name
-			# try:
-			# 	api_tmp = jfname["behavior"]["apistats"][
-			# 		str(process_max[maxprocess_id])]  # 将process_max[maxprocess_id]即进程id转换为字符串进行传值
-			# 	df = pd.DataFrame.from_dict(api_tmp, orient="index").T.to_csv(apistats_filename, index=True,
-			# 																  index_label=str(maxprocess_id),
-			# 																  mode="a+")  # mode="a+"表示追加数据，不会覆盖前面的数据
-			# 	print(process_max[maxprocess_id], "==> Write to CSV file succeed!!!!!")
-			# except KeyError:
-			# 	print(maxprocess_id, "'s process ", process_max[maxprocess_id],
-			# 		  " don;t have api calls!!PLEASE CHECK THIS FILE'S PROCESSES")
 			try:
 				api_tmp = jfname["behavior"]["apistats"][
 					str(process_max[maxprocess_id])]  # 将process_max[maxprocess_id]即进程id转换为字符串进行传值

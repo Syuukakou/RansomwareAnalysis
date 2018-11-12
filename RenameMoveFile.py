@@ -8,7 +8,7 @@ import json
 import shutil
 
 # 1，先遍历文件夹，将report下的renport.json文件重命名为该样本的md5值
-def get_files(path,newpath,rule="report.json"):
+def rename_move(path,newpath,rule="report.json"):
 	allfile = []
 	# rename_allfile = []
 	for fpath, dirname, fnames in os.walk(path):#search file with"report.json"
@@ -17,16 +17,26 @@ def get_files(path,newpath,rule="report.json"):
 			if filename.endswith(rule):
 				allfile.append(filename)
 	for fs in allfile:#rename files
-		with open(fs) as jsonfile:
-			jf = json.load(jsonfile)
-			file_md5 = jf["virustotal"]["md5"]
-		# name_tmp = os.path.basename(fs)
-		name_tmp = str(file_md5)+".json"
-		dirname_tmp = os.path.dirname(fs)
-		renamed_file = os.path.join(dirname_tmp,name_tmp)
-		os.rename(fs,renamed_file)
-		newfilepath = os.path.join(newpath,os.path.basename(renamed_file))
-		shutil.move(renamed_file,newfilepath)
+		try:
+			with open(fs) as jsonfile:
+				jf = json.load(jsonfile)
+				file_md5 = jf["virustotal"]["md5"]
+			# name_tmp = os.path.basename(fs)
+			name_tmp = str(file_md5)+".json"
+			dirname_tmp = os.path.dirname(fs)
+			renamed_file = os.path.join(dirname_tmp,name_tmp)
+			os.rename(fs,renamed_file)
+			newfilepath = os.path.join(newpath,os.path.basename(renamed_file))
+			shutil.move(renamed_file,newfilepath)
+			print(name_tmp," moved successfully!!!")
+		except KeyError:
+			with open(fs) as jsonfile:
+				jf = json.load(jsonfile)
+				file_target = jf["target"]["human"]
+			name_tmp = file_target+".json"
+			newfilepath1 = os.path.join(newpath,name_tmp)
+			shutil.move(fs, newfilepath1)
+			print(name_tmp, " moved successfully!!!")
 
 	return allfile
 
