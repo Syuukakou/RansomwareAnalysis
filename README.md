@@ -24,4 +24,4 @@ cuckoosandbox-json-instructure.txt:
 
 cuckoo sandbox的解析报告report.json的文件构造（各种属性）
 
-ransomware download website.txt:ransomware下载网址
+
