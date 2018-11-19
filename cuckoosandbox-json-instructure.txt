@@ -1,0 +1,83 @@
+"E:\Program Files\python3.7\python.exe" E:/PycharmWorkSpace/MWSCup/Test.py
+json file's keys===>
+json file's type: <class 'dict'>
+dict_keys(['info', 'procmemory', 'target', 'irma', 'buffer', 'suricata', 'virustotal', 'network', 'signatures', 'static', 'dropped', 'behavior', 'debug', 'misp', 'strings', 'metadata'])
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+info --> <class 'dict'>
+info keys:
+dict_keys(['added', 'started', 'duration', 'ended', 'owner', 'score', 'id', 'category', 'git', 'monitor', 'package', 'route', 'custom', 'machine', 'platform', 'version', 'options'])
+###########################################
+procmemory--> <class 'list'>
+procememory[0] keys
+ dict_keys(['regions', 'yara', 'num', 'file', 'urls', 'extracted', 'pid'])
+###########################################
+target--> <class 'dict'>
+target keys
+ dict_keys(['category', 'file'])
+###########################################
+irma <class 'dict'>
+irma keys
+ dict_keys(['status', 'probes_finished', 'scan_id', 'parent_file_sha256', 'name', 'scan_date', 'probe_results', 'probes_total', 'file_infos', 'path', 'result_id', 'file_sha256'])
+###########################################
+buffer <class 'list'>
+buffer[i] keys
+ dict_keys(['yara', 'sha1', 'name', 'type', 'sha256', 'urls', 'crc32', 'path', 'ssdeep', 'size', 'sha512', 'md5'])
+###########################################
+suricata <class 'dict'>
+suricata keys
+ dict_keys(['tls', 'files', 'alerts', 'http'])
+###########################################
+virustotal <class 'dict'>
+virustotal keys
+ dict_keys(['scans', 'scan_id', 'sha1', 'resource', 'response_code', 'scan_date', 'permalink', 'summary', 'sha256', 'normalized', 'total', 'positives', 'verbose_msg', 'md5'])
+###########################################
+network <class 'dict'>
+network keys
+ dict_keys(['tls', 'udp', 'dns_servers', 'http', 'icmp', 'smtp', 'tcp', 'smtp_ex', 'mitm', 'hosts', 'pcap_sha256', 'dns', 'http_ex', 'domains', 'dead_hosts', 'irc', 'https_ex'])
+###########################################
+signatures <class 'list'>
+signatures[i] keys
+ dict_keys(['markcount', 'families', 'description', 'severity', 'marks', 'references', 'name'])
+###########################################
+static <class 'dict'>
+static keys
+ dict_keys(['pdb_path', 'pe_imports', 'peid_signatures', 'keys', 'signature', 'pe_timestamp', 'pe_exports', 'imported_dll_count', 'pe_imphash', 'pe_resources', 'pe_versioninfo', 'pe_sections'])
+###########################################
+dropped <class 'list'>
+dropped[i] keys
+ dict_keys(['yara', 'sha1', 'name', 'type', 'sha256', 'urls', 'crc32', 'path', 'ssdeep', 'size', 'sha512', 'md5'])
+###########################################
+behavior <class 'dict'>
+behavior keys
+ dict_keys(['generic', 'apistats', 'processes', 'processtree', 'summary'])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+apistats keys
+ dict_keys(['2784', '2620', '1216', '2232', '2152', '496', '2240', '2512'])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+processes[i] keys
+ dict_keys(['process_path', 'calls', 'track', 'pid', 'process_name', 'command_line', 'modules', 'time', 'tid', 'first_seen', 'ppid', 'type'])
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+calls[i] keys
+ dict_keys(['category', 'status', 'stacktrace', 'api', 'return_value', 'arguments', 'time', 'tid', 'flags'])
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+processtree[i] keys
+ dict_keys(['track', 'pid', 'process_name', 'command_line', 'first_seen', 'ppid', 'children'])
+###########################################
+debug <class 'dict'>
+debug keys
+ dict_keys(['action', 'dbgview', 'errors', 'log', 'cuckoo'])
+###########################################
+misp <class 'list'>
+misp[i] keys
+ dict_keys(['info', 'level', 'event_id', 'iocs', 'url', 'date'])
+###########################################
+strings <class 'list'>
+strings[i] is list
+ <class 'str'>
+###########################################
+metadata <class 'dict'>
+metadata keys
+ dict_keys(['output'])
+###########################################
+
+Process finished with exit code 0
