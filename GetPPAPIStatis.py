@@ -21,7 +21,8 @@ def GetPProcesAPIStats(filepath,apistats_filename):
 				jf = json.load(jfile)
 				jf_processtree = jf["behavior"]["processtree"]
 				for process_id in range(len(jf_processtree)):#当ppid不在apistats，且pid不在["500","388", "496"]之内，则执行取id操作。
-					if (((jf_processtree[process_id]["ppid"] in jf["behavior"]["apistats"]) == False) and (jf_processtree[process_id]["pid"] in ["500","388", "496"]) == False):
+					if (((jf_processtree[process_id]["ppid"] in jf["behavior"]["apistats"]) == False)
+							and (jf_processtree[process_id]["pid"] in ["500","388", "496"]) == False):
 						process_dict[int(jf_processtree[process_id]["pid"])] = get_occurrence_of_key(
 							jf_processtree[process_id],"children")
 				# process_max[list[i]] = max(process_dict, key=process_dict.get)

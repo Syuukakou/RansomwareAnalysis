@@ -6,7 +6,8 @@ import os
 import os.path
 import json
 import shutil
-
+import string
+import random
 # 1，先遍历文件夹，将report下的renport.json文件重命名为该样本的md5值
 def rename_move(path,newpath,rule="report.json"):
 	allfile = []
@@ -30,10 +31,12 @@ def rename_move(path,newpath,rule="report.json"):
 			shutil.move(renamed_file,newfilepath)
 			print(name_tmp," moved successfully!!!")
 		except KeyError:
-			with open(fs) as jsonfile:
-				jf = json.load(jsonfile)
-				file_target = jf["target"]["human"]
-			name_tmp = file_target+".json"
+			# with open(fs) as jsonfile:
+			# 	jf = json.load(jsonfile)
+				# file_target = jf["target"]["human"]
+			# name_tmp = file_target+".json"
+			str_tmp = ''.join(random.sample(string.ascii_letters+string.digits,34))
+			name_tmp = "Random_"+str_tmp+".json"
 			newfilepath1 = os.path.join(newpath,name_tmp)
 			shutil.move(fs, newfilepath1)
 			print(name_tmp, " moved successfully!!!")
