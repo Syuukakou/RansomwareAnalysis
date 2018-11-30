@@ -28,6 +28,7 @@ def rename_move(path,newpath,rule="report.json"):
 			renamed_file = os.path.join(dirname_tmp,name_tmp)
 			os.rename(fs,renamed_file)
 			newfilepath = os.path.join(newpath,os.path.basename(renamed_file))
+			#移动文件到新路径
 			shutil.move(renamed_file,newfilepath)
 			print(name_tmp," moved successfully!!!")
 		except KeyError:
