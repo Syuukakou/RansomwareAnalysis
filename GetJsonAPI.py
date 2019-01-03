@@ -1,3 +1,6 @@
+'''
+提取API并计算Pearson相关系数
+'''
 import json
 import pandas as pd
 import os
@@ -6,7 +9,6 @@ import numpy as np
 from numpy import *
 from scipy.stats import pearsonr
 from pprint import pprint
-
 #初始化各个API的频率为0
 api_list = [{"FindNextFile":0,"FindFirstFile":0,"FindFirstFileEx":0,"SetFilePointer":0,"SetFilePointerEx":0,"GetFileSize":0,"GetFileSizeEx":0,
 			"SetFileAttributes":0, "GetFileType":0,"CopyFileEx":0,"CopyFile":0,"DeleteFile":0,"EncryptFile":0,"NtReadFile":0,"NtWriteFile":0,
@@ -116,12 +118,10 @@ def GetAPI(filepath):
 				for i in range(len(corrcoef_list)):
 					if isnan(corrcoef_list[i]):
 						corrcoef_list[i] = 0
-				corrcoef_list.append("benign")#添加标签
+				corrcoef_list.append("TeslaCrypt")#添加标签
 				print(corrcoef_list)
 				#将结果写入文件
-				with open(r"E:\PycharmWorkSpace\RansomwareAnalysis\All_Data.csv", "a+",newline="") as f:
+				with open(r"E:\PycharmWorkSpace\RansomwareAnalysis\test_Dataabc.csv", "a+",newline="") as f:
 					writer = csv.writer(f, dialect="excel")
 					# writer.writerow(["file-crypt","file-register","file-socket","crypt-register","crypt-socket","register-socket","label"])
 					writer.writerow(corrcoef_list)
-		# print(list[i]," Wrote to file succeed!!!!")
-# with open(r"E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\Cerber\0b7f65d8f39ef6c5abd03be5a8687d70.json") as f:

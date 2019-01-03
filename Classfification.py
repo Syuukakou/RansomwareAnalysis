@@ -36,7 +36,7 @@ allData_matrix = np.delete(allData_matrix,10,axis=1)
 #------------------------------------------------------------------------------------------
 
 #数据分割，用作参数最优化
-data_train, data_test, label_train, label_test = train_test_split(allData_matrix,allDataLabel_matrix,test_size=0.3, random_state=0)
+# data_train, data_test, label_train, label_test = train_test_split(allData_matrix,allDataLabel_matrix,test_size=0.3, random_state=0)
 #设定参数优化范围
 # tuned_parameters = [
 # 	{"C":[1,10,100,1000], "kernel":["linear"]},
@@ -73,33 +73,33 @@ data_train, data_test, label_train, label_test = train_test_split(allData_matrix
 # print(classification_report(y_true, y_pred))
 
 # cross-validation
-clf = svm.SVC(kernel="linear",C=10)
-cv = ShuffleSplit(n_splits=5,test_size=0.3,random_state=0)
-scores = cross_val_score(clf, allData_matrix,allDataLabel_matrix,cv=cv)
-print("Cross-Validation scores: {}".format(scores))
-print("Average score:".format(np.mean(scores)))
-
+# clf = svm.SVC(kernel="linear",C=10)
+# cv = ShuffleSplit(n_splits=5,test_size=0.3,random_state=0)
+# scores = cross_val_score(clf, allData_matrix,allDataLabel_matrix,cv=cv)
+# print("Cross-Validation scores: {}".format(scores))
+# print("Average score:".format(np.mean(scores)))
+#
 
 
 #-----------------------------------------------------------------------------------------------------------------
 # #SVM
 #将数据随机分为 训练数据：测试数据 = 7 ：3
-# data_train, data_test, label_train, label_test = train_test_split(allData_matrix,allDataLabel_matrix,test_size=0.3, random_state=0)
-# classifier = svm.SVC(kernel="linear",C=10)
-# classifier.fit(data_train,label_train)
-# result_true, result_pred = label_test, classifier.predict(data_test)
-# print("-->Dataset: ")
-# print("Cerber:\t\t247",end="\t")
-# print("CryptoLocker:\t12")
-# print("CrytoWall:\t49",end="\t")
-# print("Genasom:\t\t25")
-# print("Jigsaw:\t\t16",end="\t")
-# print("Locky:\t\t\t334")
-# print("Petya:\t\t6",end="\t")
-# print("Reveton:\t\t126")
-# print("TeslaCrypt:\t65",end="\t")
-# print("Benign:\t\t\t230")
-# print()
-# print("-->Classification Result:")
-# print(classification_report(result_true,result_pred))
-# print("-->F1 value: ",classifier.score(data_test,label_test))
+data_train, data_test, label_train, label_test = train_test_split(allData_matrix,allDataLabel_matrix,test_size=0.3, random_state=0)
+classifier = svm.SVC(kernel="linear",C=10)
+classifier.fit(data_train,label_train)
+result_true, result_pred = label_test, classifier.predict(data_test)
+print("-->Dataset: ")
+print("Cerber:\t\t247",end="\t")
+print("CryptoLocker:\t12")
+print("CrytoWall:\t49",end="\t")
+print("Genasom:\t\t25")
+print("Jigsaw:\t\t16",end="\t")
+print("Locky:\t\t\t334")
+print("Petya:\t\t6",end="\t")
+print("Reveton:\t\t126")
+print("TeslaCrypt:\t65",end="\t")
+print("Benign:\t\t\t230")
+print()
+print("-->Classification Result:")
+print(classification_report(result_true,result_pred))
+print("-->F1 value: ",classifier.score(data_test,label_test))

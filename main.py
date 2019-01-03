@@ -20,7 +20,7 @@ import GetJsonAPI
 # 	writer = csv.writer(f,dialect="excel")
 # 	writer.writerow(["file-crypt","file-register","file-socket","crypt-register","crypt-socket","register-socket","label"])
 # print("--------------------提取json文件的API，并计算各类api之间的corrceof相关系数并输出至csv文件-------------------")
-GetJsonAPI.GetAPI(r"E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\Bengin Software")
+# GetJsonAPI.GetAPI(r"E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\TeslaCrypt")
 '''
 Training Data path
 E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\Bengin Software
@@ -33,17 +33,4 @@ E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\Locky
 E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\Petya
 E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\Reveton
 E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\TeslaCrypt
-'''
-'''
-Test Data Path
-E:\PycharmWorkSpace\RansomwareAnalysis\TestDataJsonFile\BenignSoftware
-E:\PycharmWorkSpace\RansomwareAnalysis\TestDataJsonFile\Cerber
-E:\PycharmWorkSpace\RansomwareAnalysis\TestDataJsonFile\CryptoLocker
-E:\PycharmWorkSpace\RansomwareAnalysis\TestDataJsonFile\CryptoWall
-E:\PycharmWorkSpace\RansomwareAnalysis\TestDataJsonFile\GenVirus
-E:\PycharmWorkSpace\RansomwareAnalysis\TestDataJsonFile\Jigsaw
-E:\PycharmWorkSpace\RansomwareAnalysis\TestDataJsonFile\Locky
-E:\PycharmWorkSpace\RansomwareAnalysis\TestDataJsonFile\Petya
-E:\PycharmWorkSpace\RansomwareAnalysis\TestDataJsonFile\Reveton
-E:\PycharmWorkSpace\RansomwareAnalysis\TestDataJsonFile\TeslaCrypt
 '''
