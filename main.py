@@ -10,6 +10,7 @@ import csv
 import ExecuteAPI
 import json
 from pprint import  pprint
+import GetFileName
 
 
 import GetJsonAPI
@@ -21,6 +22,9 @@ import GetJsonAPI
 # 	writer.writerow(["file-crypt","file-register","file-socket","crypt-register","crypt-socket","register-socket","label"])
 # print("--------------------提取json文件的API，并计算各类api之间的corrceof相关系数并输出至csv文件-------------------")
 # GetJsonAPI.GetAPI(r"E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\TeslaCrypt")
+
+GetFileName.getname(r"E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\TeslaCrypt")
+
 '''
 Training Data path
 E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\Bengin Software
