@@ -1,3 +1,11 @@
+'''
+计算各个API group之间的Pearson相关系数，但于今日2019/5/10再次看此代码时，此代码并未完成，最后并没有进行PCA计算。
+也许当时是因为使用了SPSS进行了PCA因子分析，所以这个代码就半途而废了，又或许我当时只是测试一下而已。现已无法考证
+
+
+'''
+
+
 import json
 import csv
 from numpy import *
@@ -33,6 +41,7 @@ def GetAPITest(filepath):
 				for pro_id in apistats:
 					for api_name in apistats[pro_id]:
 						#匹配各组的API，匹配到则 +1
+						#将API的次数添加到列表中，即提取API的被调用频率
 						if api_name in api_list[0]:
 							api_list[0][api_name] += int(apistats[pro_id][api_name])
 						if api_name in api_list[1]:
@@ -44,7 +53,7 @@ def GetAPITest(filepath):
 						if api_name in api_list[4]:
 							api_list[4][api_name] += int(apistats[pro_id][api_name])
 				print("---------------------API executed succeed!!!!!!-------------------------------")
-				# 获取api_list中最长元素的长度
+				# 获取api_list中最长元素的长度，目的是将所有列表的长度统一，便于进行PCA因子分析
 				print(api_list)
 				# 将api的频率抽出，并存入各自的列表中
 				for fileAPI in api_list[0]:

@@ -4,6 +4,10 @@ import APIlist
 import numpy as np
 from pprint import pprint
 
+'''
+提取report.csv中的crypt_api，register_api,files_api,socket_api
+'''
+
 # files_api = ["FindNextFile","FindFirstFile","FindFirstFileEx","SetFilePointer","SetFilePointerEx", "GetFileSize","GetFileSizeEx",
 # 			"SetFileAttributes", "GetFileType","CopyFileEx","CopyFile","DeleteFile","EncryptFile","NtReadFile","NtWriteFile",
 # 			 "GetFileAttributes","GetFileAttributesEx"]

@@ -1,5 +1,11 @@
 '''
-提取API并计算Pearson相关系数
+论文主代码：   提取API并计算Pearson相关系数
+
+1，遍历特定文件夹下的所有Json文件
+
+2，抽取json文件的["behavior"]["apistats"]下的所有进程的crypt_api，register_api,files_api,socket_api
+
+3，计算2中的四类api之间的corrceof系数，并输出至csv文件
 '''
 import json
 import pandas as pd
