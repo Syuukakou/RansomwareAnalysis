@@ -6,13 +6,13 @@ RenameMoveFile.py:
 
 2，再遍历文件夹，将所有样本的report下的“md5”.json文件移动到pycharm的工作空间内，以便提取api统计数据
 
-GetPPAPIstatis.py:获取特定文件下的所有Json文件的父进程API的statistic
+GetPPAPIstatis.py:获取特定文件下的所有Json文件的父进程API的statistic(此算法有Bug，并且在论文中无法使用)
 
 ExecuteAPI.py:提取特定文件夹下的所有Json文件的所有进程的所有API
 
 APIFilter.py:提取report.csv中的crypt_api，register_api,files_api,socket_api
 
-GetJsonAPI:
+GetJsonAPI:（论文主代码）
 
 1，遍历特定文件夹下的所有Json文件
            
