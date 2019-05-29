@@ -45,7 +45,7 @@ def GetAPI(filepath):
 				apistats = jf["behavior"]["apistats"]
 				for pro_id in apistats:
 					for api_name in apistats[pro_id]:
-						#匹配各组的API，匹配到则 +1
+						#匹配各组的API，匹配到了则将API的调用次数提取
 						if api_name in api_list[0]:
 							api_list[0][api_name] += int(apistats[pro_id][api_name])
 						if api_name in api_list[1]:
@@ -124,10 +124,10 @@ def GetAPI(filepath):
 				for i in range(len(corrcoef_list)):
 					if isnan(corrcoef_list[i]):
 						corrcoef_list[i] = 0
-				corrcoef_list.append("TeslaCrypt")#添加标签
+				corrcoef_list.append("Cryptolocker")#添加标签
 				print(corrcoef_list)
 				#将结果写入文件
-				with open(r"E:\PycharmWorkSpace\RansomwareAnalysis\test_Dataabc.csv", "a+",newline="") as f:
+				with open(r"E:\PycharmWorkSpace\RansomwareAnalysis\TestCryptoLockerData.csv", "a+",newline="") as f:
 					writer = csv.writer(f, dialect="excel")
 					# writer.writerow(["file-crypt","file-register","file-socket","crypt-register","crypt-socket","register-socket","label"])
 					writer.writerow(corrcoef_list)

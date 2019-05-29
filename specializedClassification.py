@@ -13,31 +13,31 @@ from pprint import pprint
 from sklearn.neural_network import MLPClassifier
 import matplotlib.pyplot as plt
 
-train_data = pd.read_csv("E:\PycharmWorkSpace\RansomwareAnalysis\Train_Data.csv",header=None)
-trainData_matrix = train_data.as_matrix()
-trainDataLabel_matrix = trainData_matrix[:,10]
-trainData_matrix = np.delete(trainData_matrix,10,axis=1)
-# print(trainData_matrix)
-# print(trainDataLabel_matrix)
-test_data = pd.read_csv("E:\PycharmWorkSpace\RansomwareAnalysis\Test_Data.csv",header=None)
-testData_matrix = test_data.as_matrix()
-testDataLabel_matrix = testData_matrix[:,10]
-testData_matrix = np.delete(testData_matrix,10,axis=1)
+# train_data = pd.read_csv("E:\PycharmWorkSpace\RansomwareAnalysis\Train_Data.csv",header=None)
+# trainData_matrix = train_data.as_matrix()
+# trainDataLabel_matrix = trainData_matrix[:,10]
+# trainData_matrix = np.delete(trainData_matrix,10,axis=1)
+# # print(trainData_matrix)
+# # print(trainDataLabel_matrix)
+# test_data = pd.read_csv("E:\PycharmWorkSpace\RansomwareAnalysis\Test_Data.csv",header=None)
+# testData_matrix = test_data.as_matrix()
+# testDataLabel_matrix = testData_matrix[:,10]
+# testData_matrix = np.delete(testData_matrix,10,axis=1)
 
-all_data = pd.read_csv("E:\PycharmWorkSpace\RansomwareAnalysis\All_Data.csv",header=None)
+all_data = pd.read_csv(r"E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\CryptoFunction specialized classification\features1.csv",header=None)
 #将csv转为矩阵
 allData_matrix = all_data.as_matrix()
 #生成标签矩阵
-allDataLabel_matrix = allData_matrix[:,10]
+allDataLabel_matrix = allData_matrix[:,6]
 #从原始矩阵中剔除标签，保留数据
-allData_matrix = np.delete(allData_matrix,10,axis=1)
+allData_matrix = np.delete(allData_matrix,6,axis=1)
 
 
 #------------------------------------------------------------------------------------------
 
-#数据分割，用作参数最优化
+# #数据分割，用作参数最优化
 # data_train, data_test, label_train, label_test = train_test_split(allData_matrix,allDataLabel_matrix,test_size=0.3, random_state=0)
-#设定参数优化范围
+# #设定参数优化范围
 # tuned_parameters = [
 # 	{"C":[1,10,100,1000], "kernel":["linear"]},
 # 	{"C":[1,10,100,1000], "kernel":["rbf"], "gamma":[0.001,0.0001]},
@@ -51,7 +51,7 @@ allData_matrix = np.delete(allData_matrix,10,axis=1)
 # 	cv=5,
 # 	scoring="%s_weighted" % score
 # )
-# clf.fit(trainData_matrix,trainDataLabel_matrix)
+# clf.fit(data_train,label_train)
 # # print(clf.grid_scores_)
 # print(clf.best_params_)
 #
@@ -71,21 +71,22 @@ allData_matrix = np.delete(allData_matrix,10,axis=1)
 # print()
 # y_true, y_pred = label_test, clf.predict(data_test)
 # print(classification_report(y_true, y_pred))
-
-# cross-validation
+#
+# # cross-validation
 # clf = svm.SVC(kernel="linear",C=10)
 # cv = ShuffleSplit(n_splits=5,test_size=0.3,random_state=0)
 # scores = cross_val_score(clf, allData_matrix,allDataLabel_matrix,cv=cv)
 # print("Cross-Validation scores: {}".format(scores))
 # print("Average score:".format(np.mean(scores)))
-#
+# #
 
 
 #-----------------------------------------------------------------------------------------------------------------
 # #SVM
+#{'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}
 #将数据随机分为 训练数据：测试数据 = 7 ：3
 data_train, data_test, label_train, label_test = train_test_split(allData_matrix,allDataLabel_matrix,test_size=0.3, random_state=0)
-classifier = svm.SVC(kernel="linear",C=10)
+classifier = svm.SVC(kernel="rbf",C=1000,gamma=0.001)
 classifier.fit(data_train,label_train)
 result_true, result_pred = label_test, classifier.predict(data_test)
 print("-->Dataset: ")

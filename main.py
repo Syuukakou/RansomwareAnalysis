@@ -14,16 +14,20 @@ import GetFileName
 
 
 import GetJsonAPI
+
+import ExtractCryptAPI
 # print("---------------从解析报告中中提取report.json，并更名为当前样本的MD5值---------------")
-# RenameMoveFile.rename_move(r"E:\PycharmWorkSpace\RansomwareAnalysis\Report\BenginSoftware",
-# 							 "E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\Bengin Software")
+# RenameMoveFile.rename_move(r"E:\PycharmWorkSpace\RansomwareAnalysis\Report\CryptoLocker",
+# 							 r"E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\added Cryptolocker")
 # with open("E:\PycharmWorkSpace\RansomwareAnalysis\Data_corrcoef.csv","a+",newline="") as f:
 # 	writer = csv.writer(f,dialect="excel")
 # 	writer.writerow(["file-crypt","file-register","file-socket","crypt-register","crypt-socket","register-socket","label"])
 # print("--------------------提取json文件的API，并计算各类api之间的corrceof相关系数并输出至csv文件-------------------")
-# GetJsonAPI.GetAPI(r"E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\TeslaCrypt")
+# GetJsonAPI.GetAPI(r"E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\Cryptolocker")
 
-GetFileName.getname(r"E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\TeslaCrypt")
+# GetFileName.getname(r"E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\TeslaCrypt")
+
+ExtractCryptAPI.ExtractAPI(r"E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\Bengin Software")
 
 '''
 Training Data path
@@ -37,4 +41,6 @@ E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\Locky
 E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\Petya
 E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\Reveton
 E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\TeslaCrypt
+
+E:\PycharmWorkSpace\RansomwareAnalysis\AnalysisReportJsonFile\CryptoLocker
 '''
