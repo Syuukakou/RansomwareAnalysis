@@ -6,6 +6,9 @@ from sklearn.metrics import classification_report
 from sklearn.model_selection import train_test_split, RepeatedKFold
 from sklearn.model_selection import GridSearchCV
 from sklearn import svm
+
+from yellowbrick.classifier import ClassificationReport
+
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import ShuffleSplit
 from sklearn.svm import SVC
@@ -86,8 +89,9 @@ allData_matrix = np.delete(allData_matrix,6,axis=1)
 #{'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}
 #将数据随机分为 训练数据：测试数据 = 7 ：3
 data_train, data_test, label_train, label_test = train_test_split(allData_matrix,allDataLabel_matrix,test_size=0.3, random_state=0)
-classifier = svm.SVC(kernel="rbf",C=1000,gamma=0.001)
+classifier = svm.SVC(kernel="rbf",C=1000,gamma=0.001,probability=True)
 classifier.fit(data_train,label_train)
+
 result_true, result_pred = label_test, classifier.predict(data_test)
 print("-->Dataset: ")
 print("Cerber:\t\t247",end="\t")
@@ -104,3 +108,9 @@ print()
 print("-->Classification Result:")
 print(classification_report(result_true,result_pred))
 print("-->F1 value: ",classifier.score(data_test,label_test))
+#此处的classes的标签必须和classifier的标签一致
+classes = ["Benign","Cerber","CryptoWall","CryptoLocker","Genasom","Jigsaw","Locky","Petya","Reveton","TeslaCrypt"]
+visualizer = ClassificationReport(classifier,classes = classes, support=True)
+visualizer.fit(data_train, label_train)
+visualizer.score(data_test, label_test)
+g = visualizer.poof()
