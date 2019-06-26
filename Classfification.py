@@ -126,7 +126,8 @@ print(confusion_array)
 df_cm = pd.DataFrame(confusion_array,
 					 index = ["Benign","Cerber","CryptoWall","CryptoLocker","Genasom","Jigsaw","Locky","Petya","Reveton","TeslaCrypt"],
 					 columns=["Benign","Cerber","CryptoWall","CryptoLocker","Genasom","Jigsaw","Locky","Petya","Reveton","TeslaCrypt"])
-plt.figure(figsize=(10,7))
+sn.set(font_scale=1.5)
+plt.figure(figsize=(9,7))
 sn.heatmap(df_cm, cmap="Blues",annot=True, fmt="g")#将fmt参数设为g，则可以取消科学计数法
 plt.title("SVM Linear Kernel \nAccuracy: {0:.3f}".format(accuracy_score(label_test,result_pred)))
 plt.ylabel("True label")

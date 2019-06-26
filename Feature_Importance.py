@@ -119,10 +119,11 @@ if __name__ == "__main__":
 	# classifier = RandomForestClassifier(random_state=0, n_jobs=-1)
 	classifier.fit(allData_matrix, allDataLabel_matrix)
 	feim_list = []
-	with open(r"E:\PycharmWorkSpace\RansomwareAnalysis\feature importance\feature importances for each label.csv", "a+",
-			  newline="") as f:
-		writer = csv.writer(f, dialect="excel")
-		writer.writerow(apiname_list)
+	#写入文件
+	# with open(r"E:\PycharmWorkSpace\RansomwareAnalysis\feature importance\feature importances for each label.csv", "a+",
+	# 		  newline="") as f:
+	# 	writer = csv.writer(f, dialect="excel")
+	# 	writer.writerow(apiname_list)
 	for tree in range(numbertree):
 		'''
 		此处采用OneVsRestClassifier来对每个家族来说重要的API进行打分。
@@ -133,45 +134,8 @@ if __name__ == "__main__":
 		print(classifier.estimators_[tree].feature_importances_)
 		print(classifier.classes_[tree])
 		feim_list = (classifier.estimators_[tree].feature_importances_)
-		with open(r"E:\PycharmWorkSpace\RansomwareAnalysis\feature importance\feature importances for each label.csv", "a+", newline="") as f:
-			writer = csv.writer(f, dialect="excel")
-			writer.writerow(feim_list)
-
-	# importances = classifier.feature_importances_
-	# std = np.std([tree.feature_importances_ for tree in classifier.estimators_], axis=0)
-	# indices = np.argsort(importances)[::-1]
-	# fti = classifier.feature_importances_
-	# print(fti)
-	# print("Feature ranking:")
-	#
-	# # for f in range(allData_matrix.shape[1]):
-	# # 	print("%d. feature %d (%f)" % (f + 1, indices[f], importances[indices[f]]))
-	#
-	# for i, feat in enumerate(feature_names):
-	# 	print("\t{0:20s} : {1:>.6f}".format(feat, fti[i]))
-	# plt.figure()
-	# plt.title("Feature importances")
-	# plt.bar(range(allData_matrix.shape[1]), importances[indices], yerr=std[indices], align="center")
-	# plt.xticks(range(allData_matrix.shape[1]), indices)
-	# plt.xlim([-1, allData_matrix.shape[1]])
-	# plt.show()
-
-
-'''
-# # ExtraTreesClassifier
-# # '''
-
-# #-------------------------------------------------------------------------------------------------
-# '''
-# RandomForesClassifier
-# '''
-
-# param_grid = {
-# 	"n_estimators": [100, 150, 200, 250, 300, 350, 400, 450]
-# }
-#
-# CV_classifier = GridSearchCV(estimator=classifier, param_grid = param_grid, cv = 5)
-# CV_classifier.fit(allData_matrix,allDataLabel_matrix)
-# print(CV_classifier.best_params_)
+	# 	with open(r"E:\PycharmWorkSpace\RansomwareAnalysis\feature importance\feature importances for each label.csv", "a+", newline="") as f:
+	# 		writer = csv.writer(f, dialect="excel")
+	# 		writer.writerow(feim_list)
 
 
