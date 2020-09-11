@@ -1,0 +1,288 @@
+2019-05-13 06:31:13,015 [analyzer] DEBUG: Starting analyzer from: C:\tmpxyqiei
+2019-05-13 06:31:13,015 [analyzer] DEBUG: Pipe server name: \??\PIPE\VXinjFfzntEMQnzaUBmIAbKstDWuPMI
+2019-05-13 06:31:13,015 [analyzer] DEBUG: Log pipe server name: \??\PIPE\oCgzSCkRRABzmbVUCWFUCUJRm
+2019-05-13 06:31:13,625 [analyzer] DEBUG: Started auxiliary module Curtain
+2019-05-13 06:31:13,625 [analyzer] DEBUG: Started auxiliary module DbgView
+2019-05-13 06:31:14,812 [analyzer] DEBUG: Started auxiliary module Disguise
+2019-05-13 06:31:15,108 [analyzer] DEBUG: Loaded monitor into process with pid 488
+2019-05-13 06:31:15,125 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets
+2019-05-13 06:31:15,125 [analyzer] DEBUG: Started auxiliary module Human
+2019-05-13 06:31:15,125 [analyzer] DEBUG: Started auxiliary module InstallCertificate
+2019-05-13 06:31:15,140 [analyzer] DEBUG: Started auxiliary module Reboot
+2019-05-13 06:31:15,217 [analyzer] DEBUG: Started auxiliary module RecentFiles
+2019-05-13 06:31:15,233 [analyzer] DEBUG: Started auxiliary module Screenshots
+2019-05-13 06:31:15,250 [analyzer] DEBUG: Started auxiliary module Sysmon
+2019-05-13 06:31:15,250 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n
+2019-05-13 06:31:15,733 [lib.api.process] INFO: Successfully executed process from path u'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\68b27ccb779220022d9bcb8bad4d79b5d7f88ada6dd519273de4481f4b519700.exe' with arguments '' and pid 2372
+2019-05-13 06:31:16,030 [analyzer] DEBUG: Loaded monitor into process with pid 2372
+2019-05-13 06:31:19,515 [analyzer] INFO: Injected into process with pid 2632 and name u'dw20.exe'
+2019-05-13 06:31:19,812 [analyzer] DEBUG: Loaded monitor into process with pid 2632
+2019-05-13 06:31:21,562 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:21,562 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:21,578 [modules.auxiliary.human] INFO: Found button u'Check online for a solution and close the program', clicking it
+2019-05-13 06:31:22,608 [modules.auxiliary.human] INFO: Found button u'Close the program', clicking it
+2019-05-13 06:31:23,328 [analyzer] INFO: Added new file to list with pid 2632 and path C:\Users\Administrator\AppData\Local\Temp\WER99FD.tmp.WERInternalMetadata.xml
+2019-05-13 06:31:24,655 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:24,655 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:25,703 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:25,703 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:26,765 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:26,765 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:27,812 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:27,812 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:28,875 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:28,875 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:29,937 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:29,937 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:31,030 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:31,030 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:32,078 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:32,078 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:33,108 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:33,108 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:34,296 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:34,296 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:35,328 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:35,328 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:36,390 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:36,390 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:37,453 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:37,453 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:38,500 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:38,500 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:39,608 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:39,625 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:40,703 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:40,703 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:41,967 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:42,092 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:43,217 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:43,233 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:44,467 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:44,467 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:45,546 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:45,546 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:46,733 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:46,733 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:47,780 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:47,796 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:49,092 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:49,092 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:50,703 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:50,703 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:51,765 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:51,765 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:52,953 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:52,953 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:54,030 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:54,030 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:55,453 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:55,453 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:57,592 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:57,592 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:31:59,592 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:31:59,592 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:01,453 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:01,453 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:02,842 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:02,842 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:03,921 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:03,921 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:05,296 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:05,296 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:06,890 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:06,890 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:08,125 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:08,125 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:09,703 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:09,703 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:11,092 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:11,092 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:12,390 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:12,390 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:14,405 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:14,405 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:15,467 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:15,467 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:16,578 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:16,578 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:17,780 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:17,780 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:18,921 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:18,921 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:20,030 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:20,078 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:21,140 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:21,140 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:22,515 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:22,515 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:23,640 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:23,640 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:25,000 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:25,000 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:26,078 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:26,078 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:27,500 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:27,515 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:28,750 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:28,750 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:30,483 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:30,483 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:31,828 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:31,828 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:33,046 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:33,046 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:34,187 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:34,203 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:35,453 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:35,453 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:36,967 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:36,967 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:38,467 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:38,562 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:39,967 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:40,000 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:41,390 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:41,390 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:42,953 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:42,953 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:44,000 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:44,000 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:45,030 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:45,030 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:46,140 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:46,155 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:47,608 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:47,608 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:48,717 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:48,717 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:49,842 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:49,858 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:50,890 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:50,890 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:52,515 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:52,515 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:53,578 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:53,578 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:56,358 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:56,358 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:57,390 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:57,390 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:32:58,812 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:32:58,812 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:00,530 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:00,530 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:01,592 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:01,592 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:03,890 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:03,890 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:06,358 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:06,358 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:08,312 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:08,312 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:12,015 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:12,015 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:13,655 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:13,655 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:14,828 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:14,828 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:15,953 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:15,953 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:17,296 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:17,296 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:18,375 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:18,375 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:19,421 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:19,421 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:21,640 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:21,640 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:24,125 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:24,125 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:25,578 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:25,578 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:27,625 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:27,625 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:28,733 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:28,733 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:29,842 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:29,842 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:30,937 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:30,937 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:33,203 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:33,203 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:34,717 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:34,733 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:37,640 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:37,640 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:38,717 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:38,717 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:39,812 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:39,812 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:40,875 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:40,875 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:42,546 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:42,546 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:43,921 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:43,921 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:45,592 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:45,592 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:46,953 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:46,953 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:49,125 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:49,125 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:50,437 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:50,437 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:51,733 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:51,733 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:52,796 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:52,796 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:54,140 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:54,140 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:56,140 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:56,140 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:57,265 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:57,265 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:58,905 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:58,905 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:33:59,967 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:33:59,967 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:01,030 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:01,030 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:02,453 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:02,453 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:03,608 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:03,608 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:04,687 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:04,687 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:05,733 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:05,733 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:07,280 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:07,280 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:08,905 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:08,905 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:10,358 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:10,390 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:11,421 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:11,421 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:13,671 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:13,671 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:15,875 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:15,875 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:16,937 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:16,937 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:17,421 [analyzer] INFO: Analysis timeout hit, terminating analysis.
+2019-05-13 06:34:18,125 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:18,125 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:19,858 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:19,858 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:20,342 [analyzer] WARNING: The package "modules.packages.exe" finish function raised an exception: [Error 32] The process cannot access the file because it is being used by another process: 'c:\\users\\admini~1\\appdata\\local\\temp\\tmp0ziw21'
+2019-05-13 06:34:21,312 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:21,342 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:22,405 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:22,421 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:23,983 [modules.auxiliary.human] INFO: Found a window with a specific handler: #32770
+2019-05-13 06:34:23,983 [modules.auxiliary.human] WARNING: Unexpected window title: Firefox
+2019-05-13 06:34:31,312 [analyzer] INFO: Terminating remaining processes before shutdown.
+2019-05-13 06:34:31,328 [lib.api.process] INFO: Successfully terminated process with pid 2372.
+2019-05-13 06:34:31,328 [lib.api.process] INFO: Successfully terminated process with pid 2632.
+2019-05-13 06:34:31,358 [analyzer] INFO: Analysis completed.

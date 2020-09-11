@@ -1,0 +1,7 @@
+﻿SetFilePointer,SetFilePointerEx,GetFileSize,GetFileType,NtReadFile,NtWriteFile,CryptAcquireContextW,CreateThread,NtResumeThread,CreateProcessInternalW,NtOpenProcess,Process32NextW,Process32FirstW,NtTerminateProcess,RegCloseKey,RegCreateKeyExW,RegQueryValueExW,RegOpenKeyExW,NtQueryValueKey,NtOpenKey
+0,0,7,32,235,78,0,6,24,3,22,0,0,3,197,1,437,307,2079,215
+1,73,7,32,273,119,2,6,25,3,22,35,1,3,198,1,437,309,2083,220
+2,73,7,32,275,119,2,6,25,4,22,35,1,9,198,1,437,309,2085,222
+3,146,7,32,311,157,2,6,25,4,22,35,1,9,198,1,437,309,2085,222
+3,146,1325,36,321,157,5,16,30,6,25,35,1,18,271,2,621,420,2154,258
+4,146,1325,36,323,157,5,16,30,7,25,35,1,24,271,2,621,420,2156,260

@@ -1,0 +1,375 @@
+2019-05-13 05:31:24,526 [cuckoo.core.scheduler] INFO: Task #1075899: acquired machine win7x6411 (label=win7x6411)
+2019-05-13 05:31:24,529 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay
+2019-05-13 05:31:24,873 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 50261 (interface=vboxnet0, host=192.168.168.211)
+2019-05-13 05:31:24,874 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer
+2019-05-13 05:31:24,923 [cuckoo.machinery.virtualbox] DEBUG: Starting vm win7x6411
+2019-05-13 05:31:25,451 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine win7x6411 to vmcloak
+2019-05-13 05:31:34,293 [cuckoo.core.guest] INFO: Starting analysis on guest (id=win7x6411, ip=192.168.168.211)
+2019-05-13 05:31:35,298 [cuckoo.core.guest] DEBUG: win7x6411: not ready yet
+2019-05-13 05:31:36,307 [cuckoo.core.guest] DEBUG: win7x6411: not ready yet
+2019-05-13 05:31:36,809 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.8 (id=win7x6411, ip=192.168.168.211)
+2019-05-13 05:31:36,854 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=win7x6411, ip=192.168.168.211, monitor=latest, size=4122890)
+2019-05-13 05:31:37,406 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:38,127 [cuckoo.core.resultserver] DEBUG: LogHandler for live analysis.log initialized.
+2019-05-13 05:31:38,427 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:39,442 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:40,208 [cuckoo.core.resultserver] DEBUG: New process (pid=3068, ppid=3004, name=0cb81071e4b47a82be631175cee0abadb61fcc7adbef41acca497d7e4b789b1d.exe)
+2019-05-13 05:31:40,459 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:41,096 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0001.jpg
+2019-05-13 05:31:41,102 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 69467
+2019-05-13 05:31:41,473 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:42,489 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:42,671 [cuckoo.core.resultserver] DEBUG: New process (pid=1756, ppid=3068, name=dw20.exe)
+2019-05-13 05:31:43,503 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:44,321 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0002.jpg
+2019-05-13 05:31:44,327 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 75314
+2019-05-13 05:31:44,517 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:44,662 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557721879.59.curtain.log
+2019-05-13 05:31:44,665 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:31:45,298 [cuckoo.core.resultserver] DEBUG: File upload request for sysmon/1557721880.23.sysmon.xml
+2019-05-13 05:31:45,302 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 9748
+2019-05-13 05:31:45,529 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:45,632 [cuckoo.core.resultserver] DEBUG: File upload request for files/e3b0c44298fc1c14_WER8A0F.tmp
+2019-05-13 05:31:46,555 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0003.jpg
+2019-05-13 05:31:46,567 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:46,569 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76147
+2019-05-13 05:31:47,583 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:47,625 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0004.jpg
+2019-05-13 05:31:47,638 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 75804
+2019-05-13 05:31:48,598 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:48,753 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0005.jpg
+2019-05-13 05:31:48,765 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76992
+2019-05-13 05:31:49,611 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:49,856 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0006.jpg
+2019-05-13 05:31:49,870 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76287
+2019-05-13 05:31:50,618 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:51,639 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:52,810 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:53,829 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:54,028 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0007.jpg
+2019-05-13 05:31:54,042 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 78728
+2019-05-13 05:31:54,842 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:55,136 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0008.jpg
+2019-05-13 05:31:55,143 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76307
+2019-05-13 05:31:55,855 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:56,871 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:57,276 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0009.jpg
+2019-05-13 05:31:57,288 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 77158
+2019-05-13 05:31:57,887 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:58,378 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0010.jpg
+2019-05-13 05:31:58,382 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76150
+2019-05-13 05:31:58,903 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:31:59,917 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:00,578 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0011.jpg
+2019-05-13 05:32:00,583 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 70914
+2019-05-13 05:32:00,938 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:01,658 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0012.jpg
+2019-05-13 05:32:01,666 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76224
+2019-05-13 05:32:01,951 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:02,768 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0013.jpg
+2019-05-13 05:32:02,776 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 75759
+2019-05-13 05:32:02,962 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:03,898 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0014.jpg
+2019-05-13 05:32:03,903 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76739
+2019-05-13 05:32:03,979 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:04,931 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557721899.75.curtain.log
+2019-05-13 05:32:04,934 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:32:05,003 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:05,005 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0015.jpg
+2019-05-13 05:32:05,011 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 78500
+2019-05-13 05:32:05,565 [cuckoo.core.resultserver] DEBUG: File upload request for sysmon/1557721900.48.sysmon.xml
+2019-05-13 05:32:05,574 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 236481
+2019-05-13 05:32:06,081 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:06,131 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0016.jpg
+2019-05-13 05:32:06,150 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76258
+2019-05-13 05:32:07,096 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:07,293 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0017.jpg
+2019-05-13 05:32:07,303 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 70385
+2019-05-13 05:32:08,127 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:09,143 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:09,445 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0018.jpg
+2019-05-13 05:32:09,451 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 73265
+2019-05-13 05:32:10,412 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:10,545 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0019.jpg
+2019-05-13 05:32:10,557 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 71080
+2019-05-13 05:32:11,434 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:12,447 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:12,687 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0020.jpg
+2019-05-13 05:32:12,695 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 73265
+2019-05-13 05:32:13,471 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:13,803 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0021.jpg
+2019-05-13 05:32:13,807 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 77030
+2019-05-13 05:32:14,556 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:14,906 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0022.jpg
+2019-05-13 05:32:14,917 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76244
+2019-05-13 05:32:15,576 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:16,596 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:17,663 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:18,069 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0023.jpg
+2019-05-13 05:32:18,073 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 78452
+2019-05-13 05:32:19,185 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0024.jpg
+2019-05-13 05:32:19,191 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76160
+2019-05-13 05:32:20,563 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0025.jpg
+2019-05-13 05:32:20,566 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 78514
+2019-05-13 05:32:21,648 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0026.jpg
+2019-05-13 05:32:21,661 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 77025
+2019-05-13 05:32:22,807 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0027.jpg
+2019-05-13 05:32:22,820 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76180
+2019-05-13 05:32:23,871 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:32:23,889 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:25,023 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557721919.95.curtain.log
+2019-05-13 05:32:25,030 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:32:25,893 [cuckoo.core.resultserver] DEBUG: File upload request for sysmon/1557721920.83.sysmon.xml
+2019-05-13 05:32:25,909 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 425488
+2019-05-13 05:32:29,901 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:32:29,912 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:34,641 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0028.jpg
+2019-05-13 05:32:34,645 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76988
+2019-05-13 05:32:35,760 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0029.jpg
+2019-05-13 05:32:35,774 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 78393
+2019-05-13 05:32:35,935 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:32:35,942 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:36,892 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0030.jpg
+2019-05-13 05:32:36,898 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76977
+2019-05-13 05:32:38,006 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0031.jpg
+2019-05-13 05:32:38,011 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76155
+2019-05-13 05:32:41,226 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0032.jpg
+2019-05-13 05:32:41,239 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 66602
+2019-05-13 05:32:41,967 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:32:41,983 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:42,384 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0033.jpg
+2019-05-13 05:32:42,392 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76324
+2019-05-13 05:32:43,537 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0034.jpg
+2019-05-13 05:32:43,548 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 78394
+2019-05-13 05:32:44,688 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0035.jpg
+2019-05-13 05:32:44,702 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76613
+2019-05-13 05:32:45,367 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557721940.28.curtain.log
+2019-05-13 05:32:45,373 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:32:45,902 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0036.jpg
+2019-05-13 05:32:45,911 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 77718
+2019-05-13 05:32:46,379 [cuckoo.core.resultserver] DEBUG: File upload request for sysmon/1557721941.3.sysmon.xml
+2019-05-13 05:32:46,391 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 670178
+2019-05-13 05:32:47,090 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0037.jpg
+2019-05-13 05:32:47,109 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 71303
+2019-05-13 05:32:48,001 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:32:48,012 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:32:50,113 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0038.jpg
+2019-05-13 05:32:50,147 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76146
+2019-05-13 05:32:54,040 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:32:54,048 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:33:00,075 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:33:00,118 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:33:02,491 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0039.jpg
+2019-05-13 05:33:02,498 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 69073
+2019-05-13 05:33:03,776 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0040.jpg
+2019-05-13 05:33:03,794 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76167
+2019-05-13 05:33:05,889 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557721960.81.curtain.log
+2019-05-13 05:33:05,896 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:33:06,145 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:33:06,156 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:33:07,604 [cuckoo.core.resultserver] DEBUG: File upload request for sysmon/1557721962.53.sysmon.xml
+2019-05-13 05:33:07,643 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 953229
+2019-05-13 05:33:12,175 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:33:12,191 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:33:14,941 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0041.jpg
+2019-05-13 05:33:14,951 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 78454
+2019-05-13 05:33:16,107 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0042.jpg
+2019-05-13 05:33:16,120 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76993
+2019-05-13 05:33:17,236 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0043.jpg
+2019-05-13 05:33:17,258 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76621
+2019-05-13 05:33:18,214 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:33:18,227 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:33:18,352 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0044.jpg
+2019-05-13 05:33:18,373 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76241
+2019-05-13 05:33:19,479 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0045.jpg
+2019-05-13 05:33:19,489 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 77737
+2019-05-13 05:33:20,830 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0046.jpg
+2019-05-13 05:33:20,836 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 74012
+2019-05-13 05:33:23,173 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0047.jpg
+2019-05-13 05:33:23,185 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 60849
+2019-05-13 05:33:24,167 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0048.jpg
+2019-05-13 05:33:24,175 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 71086
+2019-05-13 05:33:24,241 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:33:24,254 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:33:26,385 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557721981.3.curtain.log
+2019-05-13 05:33:26,389 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:33:28,406 [cuckoo.core.resultserver] DEBUG: File upload request for sysmon/1557721983.33.sysmon.xml
+2019-05-13 05:33:28,447 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 1225760
+2019-05-13 05:33:29,636 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0049.jpg
+2019-05-13 05:33:29,643 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 73827
+2019-05-13 05:33:30,279 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:33:30,303 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:33:30,765 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0050.jpg
+2019-05-13 05:33:30,783 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 76022
+2019-05-13 05:33:31,905 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0051.jpg
+2019-05-13 05:33:31,924 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79731
+2019-05-13 05:33:33,073 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0052.jpg
+2019-05-13 05:33:33,093 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 81916
+2019-05-13 05:33:34,284 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0053.jpg
+2019-05-13 05:33:34,321 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 78984
+2019-05-13 05:33:35,391 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0054.jpg
+2019-05-13 05:33:35,422 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79879
+2019-05-13 05:33:36,335 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:33:36,357 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:33:36,730 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0055.jpg
+2019-05-13 05:33:36,803 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 78983
+2019-05-13 05:33:37,996 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0056.jpg
+2019-05-13 05:33:38,005 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 80201
+2019-05-13 05:33:39,134 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0057.jpg
+2019-05-13 05:33:39,154 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 78973
+2019-05-13 05:33:42,373 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:33:42,387 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:33:42,628 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0058.jpg
+2019-05-13 05:33:42,683 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 81213
+2019-05-13 05:33:43,969 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0059.jpg
+2019-05-13 05:33:43,986 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79937
+2019-05-13 05:33:45,573 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0060.jpg
+2019-05-13 05:33:45,579 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79145
+2019-05-13 05:33:46,796 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0061.jpg
+2019-05-13 05:33:47,005 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 80451
+2019-05-13 05:33:47,053 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557722001.81.curtain.log
+2019-05-13 05:33:47,065 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:33:48,409 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:33:48,420 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:33:49,009 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0062.jpg
+2019-05-13 05:33:49,041 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 78985
+2019-05-13 05:33:49,738 [cuckoo.core.resultserver] DEBUG: File upload request for sysmon/1557722004.64.sysmon.xml
+2019-05-13 05:33:49,776 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 1636260
+2019-05-13 05:33:50,217 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0063.jpg
+2019-05-13 05:33:50,233 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 81193
+2019-05-13 05:33:51,350 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0064.jpg
+2019-05-13 05:33:51,368 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79016
+2019-05-13 05:33:54,565 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:33:54,578 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:34:00,344 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0065.jpg
+2019-05-13 05:34:00,362 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 81185
+2019-05-13 05:34:00,625 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:34:00,661 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:34:01,238 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0066.jpg
+2019-05-13 05:34:01,251 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 78463
+2019-05-13 05:34:02,433 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0067.jpg
+2019-05-13 05:34:02,447 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 86837
+2019-05-13 05:34:03,791 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0068.jpg
+2019-05-13 05:34:03,795 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 81019
+2019-05-13 05:34:05,930 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0069.jpg
+2019-05-13 05:34:05,941 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79051
+2019-05-13 05:34:06,683 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:34:06,696 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:34:07,555 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557722022.45.curtain.log
+2019-05-13 05:34:07,561 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:34:10,627 [cuckoo.core.resultserver] DEBUG: File upload request for sysmon/1557722025.52.sysmon.xml
+2019-05-13 05:34:10,668 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 2064166
+2019-05-13 05:34:12,708 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:34:12,732 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:34:14,377 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0070.jpg
+2019-05-13 05:34:14,390 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79800
+2019-05-13 05:34:15,525 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0071.jpg
+2019-05-13 05:34:15,531 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 78960
+2019-05-13 05:34:17,733 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0072.jpg
+2019-05-13 05:34:17,746 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79991
+2019-05-13 05:34:18,830 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0073.jpg
+2019-05-13 05:34:18,862 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 78990
+2019-05-13 05:34:19,069 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:34:19,077 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:34:23,162 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0074.jpg
+2019-05-13 05:34:23,195 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79462
+2019-05-13 05:34:24,292 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0075.jpg
+2019-05-13 05:34:24,312 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79878
+2019-05-13 05:34:25,093 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:34:25,106 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:34:25,462 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0076.jpg
+2019-05-13 05:34:25,484 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 81803
+2019-05-13 05:34:26,627 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0077.jpg
+2019-05-13 05:34:26,641 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 72279
+2019-05-13 05:34:27,771 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0078.jpg
+2019-05-13 05:34:27,800 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79622
+2019-05-13 05:34:27,973 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557722042.83.curtain.log
+2019-05-13 05:34:27,986 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:34:31,138 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:34:31,168 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:34:32,062 [cuckoo.core.resultserver] DEBUG: File upload request for sysmon/1557722046.92.sysmon.xml
+2019-05-13 05:34:32,122 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 2572765
+2019-05-13 05:34:33,238 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0079.jpg
+2019-05-13 05:34:33,250 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 80111
+2019-05-13 05:34:34,456 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0080.jpg
+2019-05-13 05:34:34,467 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79192
+2019-05-13 05:34:37,198 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:34:37,214 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:34:39,890 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0081.jpg
+2019-05-13 05:34:39,928 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 81592
+2019-05-13 05:34:41,091 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0082.jpg
+2019-05-13 05:34:41,108 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79279
+2019-05-13 05:34:43,238 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:34:43,247 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:34:44,378 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0083.jpg
+2019-05-13 05:34:44,400 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 81539
+2019-05-13 05:34:45,560 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0084.jpg
+2019-05-13 05:34:45,568 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79215
+2019-05-13 05:34:45,640 [cuckoo.core.resultserver] DEBUG: File upload request for memory/3068-1.dmp
+2019-05-13 05:34:46,312 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 82776872
+2019-05-13 05:34:47,353 [cuckoo.core.resultserver] DEBUG: File upload request for memory/1756-1.dmp
+2019-05-13 05:34:47,924 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0085.jpg
+2019-05-13 05:34:47,964 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 74358
+2019-05-13 05:34:48,217 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 88914032
+2019-05-13 05:34:48,393 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557722063.23.curtain.log
+2019-05-13 05:34:48,407 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:34:49,100 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0086.jpg
+2019-05-13 05:34:49,273 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:34:50,157 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 74320
+2019-05-13 05:34:50,159 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:34:50,439 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0087.jpg
+2019-05-13 05:34:50,459 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 81466
+2019-05-13 05:34:51,579 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0088.jpg
+2019-05-13 05:34:51,601 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79246
+2019-05-13 05:34:52,727 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0089.jpg
+2019-05-13 05:34:52,741 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 81519
+2019-05-13 05:34:53,734 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557722068.56.curtain.log
+2019-05-13 05:34:53,747 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:34:53,939 [cuckoo.core.resultserver] DEBUG: File upload request for shots/0090.jpg
+2019-05-13 05:34:53,950 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 79274
+2019-05-13 05:34:54,420 [cuckoo.core.resultserver] DEBUG: File upload request for sysmon/1557722069.2.sysmon.xml
+2019-05-13 05:34:54,475 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 922654
+2019-05-13 05:34:56,253 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:34:56,260 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:35:00,136 [cuckoo.core.resultserver] DEBUG: File upload request for sysmon/1557722075.0.sysmon.xml
+2019-05-13 05:35:00,191 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 3274851
+2019-05-13 05:35:00,302 [cuckoo.core.resultserver] DEBUG: File upload request for files/b03ba83f3811c637_wer8a0f.tmp.werinternalmetadata.xml
+2019-05-13 05:35:00,314 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 2662
+2019-05-13 05:35:02,281 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:35:02,293 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:35:08,329 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:35:08,370 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:35:08,666 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557722083.53.curtain.log
+2019-05-13 05:35:08,679 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:35:14,521 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:35:14,533 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:35:20,725 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:35:20,785 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:35:27,000 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:35:27,014 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:35:29,065 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557722103.89.curtain.log
+2019-05-13 05:35:29,075 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:35:33,045 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:35:33,069 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:35:39,290 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:35:39,328 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:35:45,551 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:35:45,625 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:35:49,430 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557722124.16.curtain.log
+2019-05-13 05:35:49,452 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:35:51,686 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:35:51,742 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:35:57,928 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:35:57,970 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:36:04,274 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:36:04,322 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:36:09,765 [cuckoo.core.resultserver] DEBUG: File upload request for curtain/1557722144.39.curtain.log
+2019-05-13 05:36:09,778 [cuckoo.core.resultserver] DEBUG: Uploaded file length: 36
+2019-05-13 05:36:10,437 [cuckoo.core.guest] INFO: Virtual Machine /status failed (CuckooGuestError('Cuckoo Agent failed without error status, please try upgrading to the latest version of agent.py (>= 0.8) and notify us if the issue persists.',))
+2019-05-13 05:36:10,455 [cuckoo.core.guest] DEBUG: win7x6411: analysis still processing
+2019-05-13 05:36:11,470 [cuckoo.core.guest] INFO: win7x6411: end of analysis reached!
+2019-05-13 05:36:11,504 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Replay
+2019-05-13 05:36:11,763 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer
+2019-05-13 05:36:11,771 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm win7x6411
+2019-05-13 05:36:16,955 [cuckoo.core.scheduler] DEBUG: Released database task #1075899
+2019-05-13 05:36:17,339 [cuckoo.core.scheduler] INFO: Task #1075899: analysis procedure completed

@@ -1,0 +1,7 @@
+CreateThread,CreateRemoteThread,NtResumeThread,NtGetContextThread,NtSetContextThread,CreateProcessInternalW,NtOpenProcess,Process32NextW,Process32FirstW,NtTerminateProcess
+6,0,24,0,0,3,22,0,0,3
+6,0,25,0,0,3,22,35,1,3
+6,0,25,0,0,4,22,35,1,9
+6,0,25,0,0,4,22,35,1,9
+16,0,30,0,0,6,25,35,1,18
+16,0,30,0,0,7,25,35,1,24
