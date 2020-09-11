@@ -95,7 +95,7 @@ allData_matrix = np.delete(allData_matrix,10,axis=1)
 #SVM
 # 将数据随机分为 训练数据：测试数据 = 7 ：3
 data_train, data_test, label_train, label_test = train_test_split(allData_matrix,allDataLabel_matrix,test_size=0.3, random_state=0)
-classifier = svm.SVC(kernel="linear",C=1000)
+classifier = svm.SVC(kernel="linear",C=1000, class_weight="balanced")
 classifier.fit(data_train,label_train)
 result_true, result_pred = label_test, classifier.predict(data_test)
 
@@ -123,6 +123,7 @@ print confusion metrix
 '''
 confusion_array = confusion_matrix(label_test,result_pred)
 print(confusion_array)
+print(confusion_matrix(label_test, result_pred).ravel())
 df_cm = pd.DataFrame(confusion_array,
 					 index = ["Benign","Cerber","CryptoWall","CryptoLocker","Genasom","Jigsaw","Locky","Petya","Reveton","TeslaCrypt"],
 					 columns=["Benign","Cerber","CryptoWall","CryptoLocker","Genasom","Jigsaw","Locky","Petya","Reveton","TeslaCrypt"])
